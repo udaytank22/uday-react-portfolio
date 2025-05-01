@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import MyImage from '../../assets/images/IMG_20250114_112716195_HDR_PORTRAIT.jpg';
+import MyImage from "../../assets/images/IMG_20250114_112716195_HDR_PORTRAIT.jpg";
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -56,7 +56,12 @@ export const Home = () => {
                     </div>
                   </Link>
                   {/* <Link to="/portfolio" className="text_2"> */}
-                  <a id="button_p" target="_blank" href="https://drive.google.com/file/d/1Bb5gozYcrL9ue46f82uq6Z5PICVXv8Rp/view?usp=drive_link" className="ac_btn btn ">
+                  <a
+                    id="button_p"
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1piE0_PxlVNQZwkDClkcunMV6cbPja3GB/view?usp=drivesdk"
+                    className="ac_btn btn "
+                  >
                     My Resume
                     <div className="ring one"></div>
                     <div className="ring two"></div>
