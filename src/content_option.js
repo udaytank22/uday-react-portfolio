@@ -215,7 +215,7 @@ const contactConfig = {
   YOUR_EMAIL: "tankuday90@gmail.com",
   YOUR_FONE: "(+91)97730 27241",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    "Feel free to contact me via phone or email for any queries, project discussions, or collaboration opportunities.",
   nama: "Uday Tank",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -228,7 +228,7 @@ const adminContactConfig = {
   YOUR_EMAIL: "tankuday90@gmail.com",
   YOUR_FONE: "(+91)97730 27241",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    "Feel free to contact me via phone or email for any queries, project discussions, or collaboration opportunities.",
   nama: "Uday Tank",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
