@@ -86,70 +86,64 @@ const services = [
 const dataportfolio = [
   {
     id: 1,
-    title: "Business Manager App",
-    img: "https://static.vecteezy.com/system/resources/previews/047/176/263/non_2x/billing-machine-and-retail-icon-concept-vector.jpg",
+    title: "CARGO MANAGEMENT SYSTEM (REACT NATIVE)",
+    img: "https://imgs.search.brave.com/IVurh6XBda1GB40mWBHAgs2P6PYvgtxRGLokCk_qg3k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ1/NDYyOTIzNy9waG90/by9oaWdoLWFuZ2xl/LXZpZXctb2Ytd2Fy/ZWhvdXNlLXdpdGgt/Zm9ya2xpZnQtcGFs/bGV0LWFndi1hbmQt/Y2FyZGJvYXJkLWJv/eGVzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1vc0dJTE0t/WF9aek12bi1tSlJq/ZHV5SjVOZEdPc1Rt/dEQ3NGFVWHBjS0pn/PQ",
     description:
-      " The app allows users to efficiently manage their business operations.",
-    projectDetails: `In this project, serving as a comprehensive business management solution. The app allows users to efficiently manage their business operations with the following features:
-
-    Billing System: Create and manage invoices for clients, easily generating PDFs to send via email at the end of the month.
-    Expense Tracking: Users can enter daily expenses and income, enabling effective financial management.
-    Flower Management: Add and list various flowers, making inventory management straightforward.
-    Vegetable Management: Maintain a list of vegetables available for sale, ensuring easy tracking.
-    Employee Management: Add and manage employee details, facilitating better human resource management.
-    Financial Overview: Track collected money and monitor pending payments to ensure accurate financial records.
-
-This project, built using the Django framework, is designed to streamline business operations and improve efficiency.`,
+      " AN ENTERPRISE SOLUTION FOR WAREHOUSE CARGO MOVEMENT AND VEHICLE OPERATIONS",
+    projectDetails: `Developed secure authentication system with role-based access controls
+    Created dynamic forms for trip creation, job vouchers, and warehouse management
+    Implemented real-time tracking for vehicle operations and cargo movement
+    Built inventory management interfaces with filtering and search capabilities
+    Integrated Firebase for push notifications based on user roles
+    Developed data visualization components for reporting and analytics`,
     link: "#",
   },
   {
     id: 2,
-    title: "Flower Billing System",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1-twBC8mYCi4_Ucvq9URHPuVUgvrRu6wqDQ&s",
+    title: "TRANSPORT LOGISTICS PLATFORM (REACT NATIVE)",
+    img: "https://imgs.search.brave.com/s50Vhh2jyJNxb3ItIvv6y3Q0C7KKY70csSy8grlW7t0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA0/MzE0NjE4L3Bob3Rv/L3RydWNrcy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9WTEz/QVdiWFUwYmlJdDBt/T3NhMlIyaWZia3ZB/T0hRaGF5MnNwZ3At/dWRxbz0",
     description:
-      "comprehensive billing system specifically for flower businesses.",
-    projectDetails: `This is our B.Tech major project, designed to serve as a comprehensive billing system specifically for flower businesses. Built using the Django framework, this application offers a range of functionalities to streamline operations, including:
-
-    Invoice Management: Generate and send invoices to clients via email in PDF format at the end of each month.
-    Expense Tracking: Enter and manage daily expenses and income to maintain accurate financial records.
-    Flower Inventory: Add and list various flowers available for sale, making it easy to manage stock levels.
-    Vegetable Management: Maintain a list of vegetables alongside flowers, facilitating comprehensive inventory management.
-    Employee Management: Add and manage employee information, enhancing workforce organization.
-    Financial Overview: Track collected payments and monitor pending invoices to ensure smooth cash flow.
-
-This project not only simplifies billing but also enhances overall business management for flower vendors. `,
+      "A COMPREHENSIVE LOGISTICS MANAGEMENT APPLICATION CONNECTING TRANSPORTERS AND SHIPPERS",
+    projectDetails: `Implemented OTP-based authentication system integrated with WhatsApp via OAuth2
+    Developed role-based access control for shippers, transporters, and agents
+    Created interactive maps and location services for real-time GPS tracking
+    Built a bidding system for transporters with real-time notifications
+    Integrated Easebuzz payment gateway for secure financial transactions
+    Engineered document verification system for KYC processes
+    Implemented Firebase notifications for real-time user alerts and updates
+    Designed multi-step forms for insurance purchase and FASTag acquisition`,
     link: "#",
   },
   {
     id: 3,
-    title: "Unique Bus Pass System",
-    img: "https://img.freepik.com/premium-vector/pass-bus-ticket-icon-flat-illustration-pass-bus-ticket-vector-icon-web-design_98396-32821.jpg",
-    description: "Unique Bus Pass Using Android Application",
-    projectDetails: `This is our B.Tech minor project, focused on developing an Android app for managing bus passes for students and working professionals. The application, designed using XML for the UI, offers a range of features to enhance user experience:
-
-    New Pass Generation: Easily create new bus passes with user-friendly input options.
-    Pass Renewal: Simple process for renewing existing bus passes, ensuring uninterrupted travel.
-    Pass Details: View and manage all pass details in one place, providing clear information at a glance.
-    User-Friendly Interface: Intuitive design enhances accessibility and ease of use for all users.
-
-This project aims to streamline the process of obtaining and managing bus passes, making it more convenient for daily commuters.`,
+    title: "ORGANIZATION MANAGEMENT APPLICATION (REACT NATIVE)",
+    img: "https://imgs.search.brave.com/9NYpL2IW2cvKNQziZdR6uuAGparusPwaA5topRWTU8w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zaW1w/bGljYWJsZS5jb20v/aW1hZ2VzL21pZHRo/dW1iL21lZXRpbmdf/MTIzMjZfMVRkdEow/MS5qcGc",
+    description: "AN INTEGRATED PLATFORM FOR EMPLOYEE AND INVENTORY MANAGEMENT",
+    projectDetails: `Built location-based attendance system with selfie verification
+    Developed task assignment and status updating workflow
+    Created leave management system with approval processes
+    Implemented employee profile management with historical data
+    Engineered inventory tracking system with barcode scanning
+    Built dynamic forms for advance salary requests and approvals
+    Developed stock usage reporting with automated inventory updates
+    Integrated camera functionality for work verification processes`,
     link: "#",
   },
-  {
-    id: 4,
-    title: "Digital Taxi Fare Meter using Arduino",
-    img: "https://circuitdigest.com/sites/default/files/projectimage_mic/Digital-Taxi-Fare-Meter-using-Arduino.jpg",
-    description: "Digital Taxi Fare Meter using Arduino.",
-    projectDetails: `This project focuses on creating an innovative taxi fare meter using an Arduino circuit. The system is designed to accurately measure distance and calculate fare based on the journey. Key features include:
+//   {
+//     id: 4,
+//     title: "Digital Taxi Fare Meter using Arduino",
+//     img: "https://circuitdigest.com/sites/default/files/projectimage_mic/Digital-Taxi-Fare-Meter-using-Arduino.jpg",
+//     description: "Digital Taxi Fare Meter using Arduino.",
+//     projectDetails: `This project focuses on creating an innovative taxi fare meter using an Arduino circuit. The system is designed to accurately measure distance and calculate fare based on the journey. Key features include:
 
-• Distance Measurement: Utilizes a sensor attached to a dummy car wheel to accurately measure the distance traveled during the ride.
-• Fare Calculation: Automatically calculates the fare based on the distance measured, providing a transparent pricing model.
-• Real-Time Display: Displays both the distance traveled and the fare amount in real-time for the driver’s convenience.
-• User Activation: The driver can easily activate the system and finalize the fare by pressing a button at the end of the ride.
+// • Distance Measurement: Utilizes a sensor attached to a dummy car wheel to accurately measure the distance traveled during the ride.
+// • Fare Calculation: Automatically calculates the fare based on the distance measured, providing a transparent pricing model.
+// • Real-Time Display: Displays both the distance traveled and the fare amount in real-time for the driver’s convenience.
+// • User Activation: The driver can easily activate the system and finalize the fare by pressing a button at the end of the ride.
 
-This project aims to enhance the efficiency and transparency of taxi fare calculations, benefiting both drivers and passengers.`,
-    link: "#",
-  },
+// This project aims to enhance the efficiency and transparency of taxi fare calculations, benefiting both drivers and passengers.`,
+//     link: "#",
+//   },
   // {
   //     id: 4,
   //     title: "The Wisdom of Life",
