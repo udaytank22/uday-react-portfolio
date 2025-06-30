@@ -20,7 +20,7 @@ const introdata = {
 const dataabout = {
   title: "about myself",
   aboutme:
-    "Creative and competitive, I am seeking a job opportunity in a growth-oriented origination where I can learn and improve my skills and knowledge. And make the best use of my skills and contribute to the organization’s growth. Skillset contains JavaScript frameworks such as React-Native and React.js, and also has a core language of HTML and CSS.
+    "Creative and competitive, I am seeking a job opportunity in a growth-oriented origination where I can learn and improve my skills and knowledge. And make the best use of my skills and contribute to the organization’s growth. Skillset contains JavaScript frameworks such as React-Native and React.js, and also has a core language of HTML and CSS."
 };
 const worktimeline = [
   {
