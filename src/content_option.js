@@ -2,7 +2,7 @@ const logotext = "Uday";
 const meta = {
   title: "Uday Tank",
   description:
-    "I’m Uday Tank data scientist _ Full stack devloper,currently working in Berlin",
+    "I’m Uday Tank, React Native Developer, Currently working in India",
 };
 
 const introdata = {
@@ -18,13 +18,13 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "about my self",
+  title: "about myself",
   aboutme:
-    "Creative and competitive, I am seeking a job opportunity in a growth-oriented origination where I can learn and improve my skills and knowledge. And make the best use of my skills and contribute to the organization’s growth. Skillset contains javascript frameworks such as React-Native and React.js and also has a core language of HTML and CSS.",
+    "Creative and competitive, I am seeking a job opportunity in a growth-oriented origination where I can learn and improve my skills and knowledge. And make the best use of my skills and contribute to the organization’s growth. Skillset contains JavaScript frameworks such as React-Native and React.js, and also has a core language of HTML and CSS.
 };
 const worktimeline = [
   {
-    jobtitle: "JuniorReact Native Development",
+    jobtitle: "React Native Development",
     where: "Jatayu Technologie(Gandhidham)",
     date: "2024",
   },
@@ -36,23 +36,23 @@ const skills = [
     value: 80,
   },
   {
-    name: "React Js",
-    value: 50,
+    name: "React JS",
+    value: 70,
   },
   {
     name: "HTML",
-    value: 80,
+    value: 70,
   },
   {
     name: "CSS",
-    value: 80,
+    value: 70,
   },
   {
     name: "Javascript",
     value: 80,
   },
   {
-    name: "Jquery",
+    name: "jQuery",
     value: 50,
   },
   {
@@ -60,7 +60,7 @@ const skills = [
     value: 70,
   },
   {
-    name: "BootStrap",
+    name: "Bootstrap",
     value: 50,
   },
 ];
@@ -69,17 +69,17 @@ const services = [
   {
     title: "Web Designing",
     description:
-      "I am a fresher web Designer with the basic knowlage of HTML, CSS also a good knowlage of framework such as a Bootstrape.",
+      "I am a fresher web Designer with the basic knowledge of HTML, CSS, also a good knowledge of frameworks such as a Bootstrap.",
   },
   {
     title: "Figma Design",
     description:
-      "I am a fresher UI UX Designer with the good knowlage of Designing software like figma, photoshope and adobe xd.",
+      "I am a fresher UI UX Designer with good knowledge of designing software like Figma, Photoshop and Adobe XD.",
   },
   {
     title: "React Software Development",
     description:
-      "I am a fresher frontend developer with the good knowlage of React Native and also a good knowlage of implimating smoothless api and basic knowalge of redux.",
+      "I am a fresher frontend developer with good knowledge of React Native and also good knowledge of implementing smoothless api and knowledge of Redux.",
   },
 ];
 
@@ -112,7 +112,7 @@ const dataportfolio = [
     Engineered document verification system for KYC processes
     Implemented Firebase notifications for real-time user alerts and updates
     Designed multi-step forms for insurance purchase and FASTag acquisition`,
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.jatayu.valk&pcampaignid=web_share",
   },
   {
     id: 3,
@@ -121,36 +121,42 @@ const dataportfolio = [
     description: "AN INTEGRATED PLATFORM FOR EMPLOYEE AND INVENTORY MANAGEMENT",
     projectDetails: `Built location-based attendance system with selfie verification
     Developed task assignment and status updating workflow
-    Created leave management system with approval processes
+    Created a leave management system with approval processes
     Implemented employee profile management with historical data
     Engineered inventory tracking system with barcode scanning
-    Built dynamic forms for advance salary requests and approvals
+    Built dynamic forms for advanced salary requests and approvals
     Developed stock usage reporting with automated inventory updates
     Integrated camera functionality for work verification processes`,
     link: "#",
   },
-//   {
-//     id: 4,
-//     title: "Digital Taxi Fare Meter using Arduino",
-//     img: "https://circuitdigest.com/sites/default/files/projectimage_mic/Digital-Taxi-Fare-Meter-using-Arduino.jpg",
-//     description: "Digital Taxi Fare Meter using Arduino.",
-//     projectDetails: `This project focuses on creating an innovative taxi fare meter using an Arduino circuit. The system is designed to accurately measure distance and calculate fare based on the journey. Key features include:
-
-// • Distance Measurement: Utilizes a sensor attached to a dummy car wheel to accurately measure the distance traveled during the ride.
-// • Fare Calculation: Automatically calculates the fare based on the distance measured, providing a transparent pricing model.
-// • Real-Time Display: Displays both the distance traveled and the fare amount in real-time for the driver’s convenience.
-// • User Activation: The driver can easily activate the system and finalize the fare by pressing a button at the end of the ride.
-
-// This project aims to enhance the efficiency and transparency of taxi fare calculations, benefiting both drivers and passengers.`,
-//     link: "#",
-//   },
-  // {
-  //     id: 4,
-  //     title: "The Wisdom of Life",
-  //     img: "https://picsum.photos/400/600/?grayscale",
-  //     description: "The wisdom of life consists in the elimination of non-essentials.",
-  //     link: "#",
-  // },
+  {
+    id: 5,
+    title: "INSURANCE PROCESS MANAGER (REACT NATIVE)",
+    img: "https://www.damcogroup.com/wp-content/uploads/2024/11/insurance-agency-systems.jpg",
+    description: "Platform to manage the insurance process status.",
+    projectDetails: `The Insurance Process Manager App is a comprehensive tool designed to streamline vehicle insurance workflows 
+    by allowing seamless image uploads (up to 300KB for vehicle photos) and efficient data management for vehicle owners. 
+    It supports categorizing images into different types, such as document images, spot images, and preparing images, ensuring 
+    clear organization for coverage sites. The app simplifies the insurance process by storing essential vehicle and owner details. 
+    facilitating quick access to critical information, and enhancing the overall efficiency of policy management and claims processing. 
+    With its optimized image handling and user-friendly interface, the app significantly improves the speed and accuracy of insurance operations.`,
+    link: "#",
+  },
+  {
+      id: 6,
+      title: "OFFICE TASK MANAGER (REACT NATIVE)",
+      img: "https://www.skillsyouneed.com/images/rhubarb/office-meeting.jpg",
+      description: "Manage user-wise office tasks.",
+     projectDetails: `The Office Manager App is a comprehensive solution designed to streamline office operations and enhance productivity. 
+     It allows users to create tasks with estimated working times, and if the task exceeds the set time, users must provide an explanation for the delay. 
+     The app features an attendance system based on selfie and current location verification, ensuring accurate and real-time tracking of employee presence. 
+     Leave management is also integrated, with requests submitted for admin approval, ensuring a smooth workflow for time-off requests. Additionally,
+     the app includes a historical work log, allowing employees and managers to track completed tasks and hours worked. It provides a detailed list of company projects 
+     and their respective modules, enabling easy access to project details. With Firebase-powered push notifications, users are alerted to important updates, task reminders, 
+     and approvals, keeping everyone in the loop and on track. The app combines task management, attendance tracking, leave approvals, and project oversight in a single, 
+     efficient platform to optimize office operations.`,
+      link: "#",
+  },
   // {
   //     id: 5,
   //     title: "The Wisdom of Life",
