@@ -1,3 +1,9 @@
+import WarehouseMAnagementApp from "./assets/images/tranportation_warehouse_managemet.png";
+import LogisticManagemet from "./assets/images/logistic_managemet.png";
+import organization_managemet from "./assets/images/organization_managemet.png";
+import InsuranceProcessManager from "./assets/images/insurance_project.png";
+import OfficeTaskManager from "./assets/images/office_task_managemt.png";
+
 const logotext = "Uday";
 const meta = {
   title: "Uday Tank",
@@ -20,7 +26,7 @@ const introdata = {
 const dataabout = {
   title: "about myself",
   aboutme:
-    "Creative and competitive, I am seeking a job opportunity in a growth-oriented origination where I can learn and improve my skills and knowledge. And make the best use of my skills and contribute to the organization’s growth. Skillset contains JavaScript frameworks such as React-Native and React.js, and also has a core language of HTML and CSS."
+    "Creative and competitive, I am seeking a job opportunity in a growth-oriented origination where I can learn and improve my skills and knowledge. And make the best use of my skills and contribute to the organization’s growth. Skillset contains JavaScript frameworks such as React-Native and React.js, and also has a core language of HTML and CSS.",
 };
 const worktimeline = [
   {
@@ -87,7 +93,7 @@ const dataportfolio = [
   {
     id: 1,
     title: "CARGO MANAGEMENT SYSTEM (REACT NATIVE)",
-    img: "https://imgs.search.brave.com/IVurh6XBda1GB40mWBHAgs2P6PYvgtxRGLokCk_qg3k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ1/NDYyOTIzNy9waG90/by9oaWdoLWFuZ2xl/LXZpZXctb2Ytd2Fy/ZWhvdXNlLXdpdGgt/Zm9ya2xpZnQtcGFs/bGV0LWFndi1hbmQt/Y2FyZGJvYXJkLWJv/eGVzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1vc0dJTE0t/WF9aek12bi1tSlJq/ZHV5SjVOZEdPc1Rt/dEQ3NGFVWHBjS0pn/PQ",
+    img: WarehouseMAnagementApp,
     description:
       " AN ENTERPRISE SOLUTION FOR WAREHOUSE CARGO MOVEMENT AND VEHICLE OPERATIONS",
     projectDetails: `Developed secure authentication system with role-based access controls
@@ -101,7 +107,7 @@ const dataportfolio = [
   {
     id: 2,
     title: "TRANSPORT LOGISTICS PLATFORM (REACT NATIVE)",
-    img: "https://imgs.search.brave.com/s50Vhh2jyJNxb3ItIvv6y3Q0C7KKY70csSy8grlW7t0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA0/MzE0NjE4L3Bob3Rv/L3RydWNrcy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9WTEz/QVdiWFUwYmlJdDBt/T3NhMlIyaWZia3ZB/T0hRaGF5MnNwZ3At/dWRxbz0",
+    img: LogisticManagemet,
     description:
       "A COMPREHENSIVE LOGISTICS MANAGEMENT APPLICATION CONNECTING TRANSPORTERS AND SHIPPERS",
     projectDetails: `Implemented OTP-based authentication system integrated with WhatsApp via OAuth2
@@ -117,7 +123,7 @@ const dataportfolio = [
   {
     id: 3,
     title: "ORGANIZATION MANAGEMENT APPLICATION (REACT NATIVE)",
-    img: "https://imgs.search.brave.com/9NYpL2IW2cvKNQziZdR6uuAGparusPwaA5topRWTU8w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zaW1w/bGljYWJsZS5jb20v/aW1hZ2VzL21pZHRo/dW1iL21lZXRpbmdf/MTIzMjZfMVRkdEow/MS5qcGc",
+    img: organization_managemet,
     description: "AN INTEGRATED PLATFORM FOR EMPLOYEE AND INVENTORY MANAGEMENT",
     projectDetails: `Built location-based attendance system with selfie verification
     Developed task assignment and status updating workflow
@@ -132,30 +138,30 @@ const dataportfolio = [
   {
     id: 5,
     title: "INSURANCE PROCESS MANAGER (REACT NATIVE)",
-    img: "https://static.wixstatic.com/media/9441146dbd3b4a31a35f513916b26942.jpg/v1/fill/w_318,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9441146dbd3b4a31a35f513916b26942.jpg",
+    img: InsuranceProcessManager,
     description: "Platform to manage the insurance process status.",
-    projectDetails: `The Insurance Process Manager App is a comprehensive tool designed to streamline vehicle insurance workflows 
-    by allowing seamless image uploads (up to 300KB for vehicle photos) and efficient data management for vehicle owners. 
-    It supports categorizing images into different types, such as document images, spot images, and preparing images, ensuring 
-    clear organization for coverage sites. The app simplifies the insurance process by storing essential vehicle and owner details. 
-    facilitating quick access to critical information, and enhancing the overall efficiency of policy management and claims processing. 
+    projectDetails: `The Insurance Process Manager App is a comprehensive tool designed to streamline vehicle insurance workflows
+    by allowing seamless image uploads (up to 300KB for vehicle photos) and efficient data management for vehicle owners.
+    It supports categorizing images into different types, such as document images, spot images, and preparing images, ensuring
+    clear organization for coverage sites. The app simplifies the insurance process by storing essential vehicle and owner details.
+    facilitating quick access to critical information, and enhancing the overall efficiency of policy management and claims processing.
     With its optimized image handling and user-friendly interface, the app significantly improves the speed and accuracy of insurance operations.`,
     link: "#",
   },
   {
-      id: 6,
-      title: "OFFICE TASK MANAGER (REACT NATIVE)",
-      img: "https://img.freepik.com/free-vector/boss-man-concept-illustration_114360-16127.jpg?semt=ais_items_boosted&w=740",
-      description: "Manage user-wise office tasks.",
-     projectDetails: `The Office Manager App is a comprehensive solution designed to streamline office operations and enhance productivity. 
-     It allows users to create tasks with estimated working times, and if the task exceeds the set time, users must provide an explanation for the delay. 
-     The app features an attendance system based on selfie and current location verification, ensuring accurate and real-time tracking of employee presence. 
+    id: 6,
+    title: "OFFICE TASK MANAGER (REACT NATIVE)",
+    img: OfficeTaskManager,
+    description: "Manage user-wise office tasks.",
+    projectDetails: `The Office Manager App is a comprehensive solution designed to streamline office operations and enhance productivity.
+     It allows users to create tasks with estimated working times, and if the task exceeds the set time, users must provide an explanation for the delay.
+     The app features an attendance system based on selfie and current location verification, ensuring accurate and real-time tracking of employee presence.
      Leave management is also integrated, with requests submitted for admin approval, ensuring a smooth workflow for time-off requests. Additionally,
-     the app includes a historical work log, allowing employees and managers to track completed tasks and hours worked. It provides a detailed list of company projects 
-     and their respective modules, enabling easy access to project details. With Firebase-powered push notifications, users are alerted to important updates, task reminders, 
-     and approvals, keeping everyone in the loop and on track. The app combines task management, attendance tracking, leave approvals, and project oversight in a single, 
+     the app includes a historical work log, allowing employees and managers to track completed tasks and hours worked. It provides a detailed list of company projects
+     and their respective modules, enabling easy access to project details. With Firebase-powered push notifications, users are alerted to important updates, task reminders,
+     and approvals, keeping everyone in the loop and on track. The app combines task management, attendance tracking, leave approvals, and project oversight in a single,
      efficient platform to optimize office operations.`,
-      link: "#",
+    link: "#",
   },
   // {
   //     id: 5,
