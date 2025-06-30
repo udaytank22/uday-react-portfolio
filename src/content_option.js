@@ -132,7 +132,7 @@ const dataportfolio = [
   {
     id: 5,
     title: "INSURANCE PROCESS MANAGER (REACT NATIVE)",
-    img: "https://www.damcogroup.com/wp-content/uploads/2024/11/insurance-agency-systems.jpg",
+    img: "https://static.wixstatic.com/media/9441146dbd3b4a31a35f513916b26942.jpg/v1/fill/w_318,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9441146dbd3b4a31a35f513916b26942.jpg",
     description: "Platform to manage the insurance process status.",
     projectDetails: `The Insurance Process Manager App is a comprehensive tool designed to streamline vehicle insurance workflows 
     by allowing seamless image uploads (up to 300KB for vehicle photos) and efficient data management for vehicle owners. 
@@ -145,7 +145,7 @@ const dataportfolio = [
   {
       id: 6,
       title: "OFFICE TASK MANAGER (REACT NATIVE)",
-      img: "https://media.istockphoto.com/id/1457878227/photo/business-people-having-a-meeting-in-a-tech-company.jpg?s=612x612&w=0&k=20&c=G15Z82qB7v1BVzqZ9eu_wrnDQPrxUEatXyb_TGKdu_s=",
+      img: "https://img.freepik.com/free-vector/boss-man-concept-illustration_114360-16127.jpg?semt=ais_items_boosted&w=740",
       description: "Manage user-wise office tasks.",
      projectDetails: `The Office Manager App is a comprehensive solution designed to streamline office operations and enhance productivity. 
      It allows users to create tasks with estimated working times, and if the task exceeds the set time, users must provide an explanation for the delay. 
