@@ -40,6 +40,7 @@ export const Portfolio = () => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt={data.title} />
+  <a>{data.title}</a>
                 <div className="content">
                   <p>{data.description}</p>
                   <a
