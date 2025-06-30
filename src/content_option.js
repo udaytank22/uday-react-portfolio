@@ -145,7 +145,7 @@ const dataportfolio = [
   {
       id: 6,
       title: "OFFICE TASK MANAGER (REACT NATIVE)",
-      img: "https://img.freepik.com/free-vector/boss-man-concept-illustration_114360-16127.jpg?semt=ais_items_boosted&w=740",
+      img: "https://media.istockphoto.com/id/1457878227/photo/business-people-having-a-meeting-in-a-tech-company.jpg?s=612x612&w=0&k=20&c=G15Z82qB7v1BVzqZ9eu_wrnDQPrxUEatXyb_TGKdu_s=",
       description: "Manage user-wise office tasks.",
      projectDetails: `The Office Manager App is a comprehensive solution designed to streamline office operations and enhance productivity. 
      It allows users to create tasks with estimated working times, and if the task exceeds the set time, users must provide an explanation for the delay. 
