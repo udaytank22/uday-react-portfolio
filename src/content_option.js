@@ -136,7 +136,7 @@ const dataportfolio = [
     link: "#",
   },
   {
-    id: 5,
+    id: 4,
     title: "INSURANCE PROCESS MANAGER (REACT NATIVE)",
     img: InsuranceProcessManager,
     description: "Platform to manage the insurance process status.",
@@ -149,7 +149,7 @@ const dataportfolio = [
     link: "#",
   },
   {
-    id: 6,
+    id: 5,
     title: "OFFICE TASK MANAGER (REACT NATIVE)",
     img: OfficeTaskManager,
     description: "Manage user-wise office tasks.",
@@ -164,17 +164,19 @@ const dataportfolio = [
     link: "#",
   },
   {
-      id: 7,
-      title: "SOCIETY MANAGEMENT",
+      id: 6,
+      title: "SOCIETY MANAGEMENT (React Native)",
         img: OfficeTaskManager,
-       description: "Built visitor & gate management system with entry/exit logging, QR-code pass verification, and guard-side authentication Developed maintenance request & complaint workflow, including ticket creation, status updates, media attachments, and admin-level resolution tracking Created amenity booking module with real-time availability, slot restrictions, and approval/rejection processes Implemented resident & staff profile management with role-based permissions, block/flat mapping, and document handling Engineered vehicle & parking slot management system including slot allocation, vehicle registration, and automated availability updates Integrated camera and gallery functionality for uploading flat images, society documents, maintenance proof, and verification media Implemented committee & sub-admin permission modules for granular access control across society operations",
+     description: "AN INTIGRATED PLATFORM FOR MANAGE THE SOCIETY OPERATIONS",
+       projectDetails: "Built visitor & gate management system with entry/exit logging, QR-code pass verification, and guard-side authentication Developed maintenance request & complaint workflow, including ticket creation, status updates, media attachments, and admin-level resolution tracking Created amenity booking module with real-time availability, slot restrictions, and approval/rejection processes Implemented resident & staff profile management with role-based permissions, block/flat mapping, and document handling Engineered vehicle & parking slot management system including slot allocation, vehicle registration, and automated availability updates Integrated camera and gallery functionality for uploading flat images, society documents, maintenance proof, and verification media Implemented committee & sub-admin permission modules for granular access control across society operations",
        link: "#",
    },
   {
-       id: 6,
-       title: "SOCIETY MANAGEMENT ADMIN PANEL",
+       id: 7,
+       title: "SOCIETY MANAGEMENT ADMIN PANEL (React JS)",
        img: OfficeTaskManager,
-       description: "Built a comprehensive admin dashboard for real-time monitoring of society activities including visitors, complaints, bookings, and finances Developed visitor & gate management control panel with live entry/exit logs, QR verification tracking, and guard activity monitoring Implemented complaint & maintenance management system with ticket assignment, priority handling, status tracking, and resolution analytics Created amenity booking management module allowing admins to configure slots, set restrictions, approve/reject requests, and monitor usage trends Designed resident & staff management system with role-based access control, block/flat hierarchy mapping, and document verification Engineered vehicle & parking management dashboard with slot allocation control, vehicle records, and real-time parking availability updates Integrated media & document management system for handling society documents, flat images, verification files, and maintenance proofs Built committee & sub-admin control panel with granular permission settings to manage access across different modules Developed analytics & reporting features for insights into complaints, visitor trends, amenity usage, and operational efficiency Implemented secure authentication & authorization system ensuring role-based access and protected admin operations Optimized UI using React JS and Tailwind CSS for responsive, fast, and scalable performance",
+     description: "AN INTEGRATED WEB PLATFORM FOR CENTRALIZED SOCIETY MANAGEMENT.",
+       projectDetails: "Built a comprehensive admin dashboard for real-time monitoring of society activities including visitors, complaints, bookings, and finances Developed visitor & gate management control panel with live entry/exit logs, QR verification tracking, and guard activity monitoring Implemented complaint & maintenance management system with ticket assignment, priority handling, status tracking, and resolution analytics Created amenity booking management module allowing admins to configure slots, set restrictions, approve/reject requests, and monitor usage trends Designed resident & staff management system with role-based access control, block/flat hierarchy mapping, and document verification Engineered vehicle & parking management dashboard with slot allocation control, vehicle records, and real-time parking availability updates Integrated media & document management system for handling society documents, flat images, verification files, and maintenance proofs Built committee & sub-admin control panel with granular permission settings to manage access across different modules Developed analytics & reporting features for insights into complaints, visitor trends, amenity usage, and operational efficiency Implemented secure authentication & authorization system ensuring role-based access and protected admin operations Optimized UI using React JS and Tailwind CSS for responsive, fast, and scalable performance",
        link: "#",
    },
   // {
