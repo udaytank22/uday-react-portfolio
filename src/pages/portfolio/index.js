@@ -67,8 +67,29 @@ export const Portfolio = () => {
               {selectedProject.title}
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body>
-            <p style={{ color: "black" }}>{selectedProject.projectDetails}</p>
+          <Modal.Body style={{ color: "black" }}>
+            {selectedProject.projectDetails && (
+              <ul style={{ paddingLeft: "20px", listStyleType: "disc" }}>
+                {selectedProject.projectDetails
+                  .split("\n")
+                  .map((line) => line.trim())
+                  .filter((line) => line.length > 0)
+                  .map((line, index) => {
+                    const cleanLine = line.replace(/^\*\s*/, "");
+                    const parts = cleanLine.split(/(\*\*.*?\*\*)/g);
+                    return (
+                      <li key={index} style={{ marginBottom: "8px", lineHeight: "1.6" }}>
+                        {parts.map((part, partIdx) => {
+                          if (part.startsWith("**") && part.endsWith("**")) {
+                            return <strong key={partIdx}>{part.slice(2, -2)}</strong>;
+                          }
+                          return part;
+                        })}
+                      </li>
+                    );
+                  })}
+              </ul>
+            )}
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

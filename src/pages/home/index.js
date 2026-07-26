@@ -4,7 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import MyImage from "../../assets/images/IMG_20250114_112716195_HDR_PORTRAIT.jpg";
+import MyImage from "../../assets/images/IMG_20260711_183158.jpg.jpeg";
+
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -59,7 +60,7 @@ export const Home = () => {
                   <a
                     id="button_p"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1piE0_PxlVNQZwkDClkcunMV6cbPja3GB/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/1wdNJouH59ksJ2_9aCUY7CP2eLRY-jYdr/view?usp=share_link"
                     className="ac_btn btn "
                   >
                     My Resume

@@ -59,21 +59,11 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="7" className="d-flex flex-wrap align-items-center">
             {skills.map((data, i) => {
               return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
-                  </div>
+                <div key={i} className="skill-badge">
+                  {data.name}
                 </div>
               );
             })}
